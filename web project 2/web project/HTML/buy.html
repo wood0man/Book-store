@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buy page</title>
+    <link rel="stylesheet" href="../CSS/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <!-- navbar-->
+    <nav class="navbar navbar-expand-sm bg-dark top">
+      <ul class="navbar-nav">
+        <!--links to the other pages-->
+        <li class="nav-item">
+          <a href="home.html" class="nav-link"
+            ><img src="../bookStoreLogo.png" alt="logo" width="50px"
+          /></a>
+        </li>
+        <li class="nav-item"><a href="home.html" class="nav-link">Home</a></li>
+        <li class="nav-item">
+          <a href="ourProducts.html" class="nav-link">Our products</a>
+        </li>
+        <li class="nav-item">
+          <a href="buy.html" class="nav-link">Buy</a>
+        </li>
+        <li class="nav-item">
+          <a href="search.html" class="nav-link">Search product</a>
+        </li>
+        <li class="nav-item">
+          <a href="home.html" class="nav-link">MyCart</a>
+        </li>
+        <li class="nav-item">
+          <a href="login.html" class="nav-link">log out</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div id="buy" class="col-md-6">
+          <input
+            type="text"
+            name=""
+            placeholder="The name of the book"
+            id="bookName"
+            list="booksNames"
+          />
+
+          <datalist id="booksNames">
+            <option>1984</option>
+            <option>One hundred years of solitude</option>
+            <option>The Adventures of Huckleberry Finn</option>
+            <option>The Adventures of Tom Sawyer</option>
+            <option>The Alchemist</option>
+            <option>The Count of Monte Cristo</option>
+            <option>The Kite Runner</option>
+            <option>The road</option>
+            <option>To Kill a Mockingbird</option>
+            <option>The martian</option>
+            <option>The girl on the Train</option>
+            <option>The Silent Patient</option>
+          </datalist>
+          <input
+            type="number"
+            name=""
+            size="3"
+            placeholder="Quantity"
+            id="quantity"
+          />
+          <button id="addButton" onclick="add()" class="btn btn-primary">
+            Add to cart
+          </button>
+          <br /><label id="price"></label>
+
+          <br />
+          <table
+            class="table table-hover"
+            style="
+              padding: auto;
+              background-color: rgba(169, 169, 169, 0.644);
+              box-shadow: 0px -6px 6px black;
+              border-radius: 30px;
+            "
+            id="cartTable"
+          ></table>
+          <a href="purchase.html"
+            ><button
+              class="btn btn-success"
+              onclick="checkoutAndAdd()"
+              ;
+              id="buyButton"
+            >
+              Checkout
+            </button></a
+          >
+          <br />
+          <!-- <textarea
+            name=""
+            placeholder="Write your suggestions"
+            id=""
+            cols="30"
+            rows="10"
+            style="display: none"
+          ></textarea> -->
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="../JavaScript/buy.js"></script>
+</html>

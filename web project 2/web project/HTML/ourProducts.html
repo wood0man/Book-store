@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our products</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../CSS/main.css" />
+  </head>
+  <body>
+    <div id="blackBackground">
+      <table class="table table-hover" id="ourProducts"></table>
+    </div>
+    <div id="jumbotron">
+      <h5>Discount item</h5>
+
+      <table id="hiddenTable" style="display: none">
+        <tr>
+          <td>
+            <a href="Dracula.html">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Dracula1st.jpeg"
+                width="150"
+                alt=""
+              />
+            </a>
+          </td>
+          <td class="text-danger">
+            This is a discounted item!! get it before it's gone
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+  <script src="../JavaScript/discountItem.js"></script>
+  <script src="../JavaScript/ourProducts.js"></script>
+  <!-- <script>
+    filltable("../books.txt");
+    async function filltable(url) {
+      var response = await fetch(url);
+      var x = await response.json();
+
+      var ta =
+        "<tr><th>" +
+        '<label id="tableLabel">' +
+        "name" +
+        "</label></th><th>" +
+        '<label id="tableLabel">description </label></th> <th><label id="tableLabel"> image</label></th> <th><label id="tableLabel">price</label></th></tr>;';
+
+      for (i = 0; i < x.length; i++) {
+        ta +=
+          '<tr><td> <label id= "tableLabel">' +
+          x[i].bookName +
+          '</label></td><td> <label id= "tableLabel">' +
+          x[i].description +
+          '</label></td><td> <a href="' +
+          x[i].href +
+          '"' +
+          ">" +
+          '<img src="' +
+          x[i].image +
+          '" width="150px">' +
+          '</a></td><td> <label id="tableLabel"> ' +
+          x[i].price +
+          "</label> </td></tr> ";
+      }
+      document.getElementById("ourProducts").innerHTML = ta;
+    }
+  </script> -->
+</html>

@@ -1,0 +1,108 @@
+{
+    "books": [
+        {"bookName" : "To Kill a Mockingbird",
+        "price" : 120 ,
+        "author" : "Harper Lee" ,
+        "description" : "a classic novel about racial injustice and the loss of innocence in the American South.",
+        "image" : "https://upload.wikimedia.org/wikipedia/commons/4/4f/To_Kill_a_Mockingbird_%28first_edition_cover%29.jpg",
+        "href" : "ToKillAMockingbird.html"
+        } ,
+        
+        {"bookName" : "The road",
+        "price" : 100 ,
+        "author" : "Cormac McCarthy",
+        "description" : " a post-apocalyptic novel that follows a father and son as they journey through a desolate landscape.",
+        "image" : "https://m.media-amazon.com/images/I/71IJ1HC2a3L._AC_UF1000,1000_QL80_.jpg",
+        "href" : "theRoad.html"
+        },
+
+        {"bookName" : "1984",
+        "price" : 80 ,
+        "author" : "George Orwell",
+        "description" : " a dystopian novel that depicts a totalitarian society ruled by a single party.",
+        "image" : "https://cdn.shopify.com/s/files/1/0262/2357/5085/products/9786257287401.jpg?v=1656316483",
+        "href" : "1984.html"
+        },
+
+        {"bookName" : "The martian",
+        "price" : 120 ,
+        "author" : "Andy Weir",
+        "description" : "  a science fiction novel about an astronaut who becomes stranded on Mars and must use his knowledge and ingenuity to survive.",
+        "image" : "https://upload.wikimedia.org/wikipedia/commons/7/71/The_Martian_%28Weir_novel%29.jpg",
+        "href" : "TheMartian.html"
+        },
+
+        {"bookName" : "The Silent Patient",
+        "price" : 140 ,
+        "author" : "Alex Michaelides",
+        "description" : " a psychological thriller about a woman who murders her husband and refuses to speak, and the therapist who tries to unlock her secrets.",
+        "image" : "https://m.media-amazon.com/images/I/81dkqO5LAQL._AC_UF894,1000_QL80_.jpg",
+        "href" : "TheSilentPatient.html"
+        },
+
+        {"bookName" : "The Alchemist",
+        "price" : 90 ,
+        "author" : "Paulo Coelho",
+        "description" : "  a philosophical novel about a shepherd boy  who embarks on a journey to fulfill his personal legend and discover the meaning of life.",
+        "image" : "https://www.drstacee.com/wp-content/uploads/2019/03/the-alchemist-cover.png",
+        "href" : "TheAlchemist.html"
+        },
+
+        {"bookName" : "One Hundred Years of Solitude",
+        "price" : 100 ,
+        "author" : "Gabriel Garcia Marquez",
+        "description" : " a magical realist novel that chronicles the history and decline of the fictional town of Macondo.",
+        "image" : "https://m.media-amazon.com/images/I/91hJ+hgZm4L.jpg",
+        "href" : "OneHundredYearsofSolitude.html"
+        },
+
+        {"bookName" : "The Kite Runner",
+        "price" : 170 ,
+        "author" : "Khaled Hosseini",
+        "description" : " a novel about the friendship between two boys from different social classes in Afghanistan, and the tragedies that tear them apart.",
+        "image" : "https://m.media-amazon.com/images/I/81RUfP0ZOjL._AC_UF1000,1000_QL80_.jpg",
+        "href" : "TheKiteRunner.html"
+        },
+
+        {"bookName" : "The Girl on the Train",
+        "price" : 50 ,
+        "author" : "Paula Hawkins",
+        "description" : " apsychological thriller about a woman who becomes entangled in a missing person investigation and must confront her own past.",
+        "image" : "https://upload.wikimedia.org/wikipedia/en/5/50/The_Girl_On_The_Train_%28US_cover_2015%29.png",
+        "href" : "TheGirlOnTheTrain.html"
+        },
+
+        {"bookName" : "Dracula",
+        "price" : 250 ,
+        "author" : "Bram Stoker",
+        "description" : "a gothic horror novel that follows the vampire Count Dracula as he tries to spread his curse to England.",
+        "image" : "https://upload.wikimedia.org/wikipedia/commons/b/ba/Dracula1st.jpeg",
+        "href" : "Dracula.html"
+        },
+
+        {"bookName" : "The Adventures of Huckleberry Finn",
+        "price" : 175 ,
+        "author" : "Mark Twain",
+        "description" : " a novel that follows the adventures of Huck Finn and his friend Jim a runaway slave as they travel down the Mississippi River.",
+        "image" : "https://iamcharlesbakerharris.files.wordpress.com/2021/12/huckleberry-finn.jpg",
+        "href" : "TheAdventuresOfHuckleberryFinn.html"
+        },
+
+        {"bookName" : "The Adventures of Tom Sawyer",
+        "price" : 40 ,
+        "author" : "Mark Twain",
+        "description" : " a novel that follows the mischievous adventures of a young boy in 19th-century America.",
+        "image" : "https://www.gutenberg.org/files/74/74-h/images/bookcover.jpg",
+        "href" : "TheAdventuresOfTomSawyer.html"
+        },
+
+        {"bookName" : "The Count of Monte Cristo",
+        "price" : 220 ,
+        "author" : "Alexandre Dumas",
+        "description" : "  a novel about a man who is wrongly imprisoned and seeks revenge on those who betrayed him.",
+        "image" : "https://m.media-amazon.com/images/I/81yyBVZ6SZL._AC_UF1000,1000_QL80_.jpg",
+        "href" : "TheCountOfMonteCristo.html"
+        }
+        
+    ]
+}

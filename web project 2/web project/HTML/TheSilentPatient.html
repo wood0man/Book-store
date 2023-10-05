@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Silent Patient</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../CSS/main.css" />
+  </head>
+  <body>
+    <!-- navbar-->
+    <nav class="navbar navbar-expand-sm bg-dark top">
+      <ul class="navbar-nav">
+        <!--links to the other pages-->
+        <li class="nav-item">
+          <a href="home.html" class="nav-link"
+            ><img src="../bookStoreLogo.png" alt="logo" width="50px"
+          /></a>
+        </li>
+        <li class="nav-item"><a href="home.html" class="nav-link">Home</a></li>
+        <li class="nav-item">
+          <a href="ourProducts.html" class="nav-link">Our products</a>
+        </li>
+        <li class="nav-item">
+          <a href="buy.html" class="nav-link">Buy</a>
+        </li>
+        <li class="nav-item">
+          <a href="search.html" class="nav-link">Search product</a>
+        </li>
+        <li class="nav-item">
+          <a href="home.html" class="nav-link">MyCart</a>
+        </li>
+        <li class="nav-item">
+          <a href="login.html" class="nav-link">log out</a>
+        </li>
+      </ul>
+    </nav>
+    <div id="blackBackground">
+      <div class="headerBook">
+        <img
+          src="https://m.media-amazon.com/images/I/81dkqO5LAQL._AC_UF894,1000_QL80_.jpg"
+          width="300px"
+          alt=""
+        />
+        <br />
+        <label style="color: white"> Rate this book</label><br />
+        <input type="range" name="" step="1" id="" />
+        <br />
+        <button class="btn btn-primary" onclick="rateThankYou()">rate</button>
+      </div>
+      <div class="totalPriceInfo">
+        <h1>Book name: <label id="theBookName">The Silent Patient</label></h1>
+        <!--link to buying page or cart-->
+        <h1>Book price: 140SR</h1>
+        <a href="buy.html"><button class="btn btn-danger">Buy</button></a>
+      </div>
+      <div id="DescriptionHeader">Book Description:</div>
+      <div id="bookDescription"></div>
+    </div>
+  </body>
+  <script src="../JavaScript/rateThankYou.js"></script>
+  <script src="../JavaScript/books.js"></script>
+</html>

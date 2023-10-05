@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/main.css" />
+  </head>
+  <body>
+    <table class="table table-hover">
+      <tr>
+        <th><label id="tableLabel"> name </label></th>
+        <th><label id="tableLabel"> description </label></th>
+        <th><label id="tableLabel">image</label></th>
+        <th><label id="tableLabel">price</label></th>
+      </tr>
+
+      <tr><td> <label id= "tableLabel">' 
+        +x[i].bookName +
+          '</label></td><td> <label id= "tableLabel">' +
+          x[i].description +
+          '</label></td><td> <a href="' +
+          x[i].href +
+          '"' +
+          ">" +
+          '<img src="' +
+          x[i].image +
+          '" width="150px">' +
+          "</a></td><td>" +
+          x[i].price +
+          "</td></tr> 
+    </table>
+  </body>
+</html>

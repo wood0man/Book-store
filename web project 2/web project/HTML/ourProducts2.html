@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+      body {
+        background-image: url(https://images.pexels.com/photos/2908984/pexels-photo-2908984.jpeg?cs=srgb&dl=pexels-stanislav-kondratiev-2908984.jpg&fm=jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      #table {
+        background-color: rgba(169, 169, 169, 0.644);
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      }
+      #jumbotron {
+        background-color: rgba(169, 169, 169, 0.644);
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        margin-right: 400px;
+        margin-left: 400px;
+        border-radius: 100px;
+      }
+      #hiddenTable {
+        margin-left: 200px;
+      }
+
+      h5 {
+        padding-left: 400px;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Our products</title>
+  </head>
+  <body>
+    <!-- navbar-->
+    <nav class="navbar navbar-expand-sm bg-dark top">
+      <ul class="navbar-nav">
+        <!--links to the other pages-->
+        <li class="nav-item">
+          <a href="home.html" class="nav-link"
+            ><img src="../bookStoreLogo.png" alt="logo" width="50px"
+          /></a>
+        </li>
+        <li class="nav-item"><a href="home.html" class="nav-link">Home</a></li>
+        <li class="nav-item">
+          <a href="ourProducts2.html" class="nav-link">Our products</a>
+        </li>
+        <li class="nav-item">
+          <a href="buy.html" class="nav-link">Buy</a>
+        </li>
+        <li class="nav-item">
+          <a href="search.html" class="nav-link">Search product</a>
+        </li>
+        <li class="nav-item">
+          <a href="home.html" class="nav-link">MyCart</a>
+        </li>
+        <li class="nav-item">
+          <a href="login.html" class="nav-link">log out</a>
+        </li>
+      </ul>
+    </nav>
+
+    <table id="table" class="table table-hover"></table>
+    <div id="jumbotron">
+      <h5>Discount item</h5>
+
+      <table id="hiddenTable" style="display: none">
+        <tr>
+          <td>
+            <a href="Dracula.html">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Dracula1st.jpeg"
+                width="150"
+                alt=""
+              />
+            </a>
+          </td>
+          <td class="text-danger">
+            This is a discounted item!! get it before it's gone
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+  <script src="../JavaScript/ourProducts.js"></script>
+  <script src="../JavaScript/discountItem.js"></script>
+</html>

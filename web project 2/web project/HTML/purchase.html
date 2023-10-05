@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Purchase</title>
+    <link rel="stylesheet" href="../CSS/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+      #video {
+        margin-top: 300px;
+        float: left;
+      }
+      #buyDiv {
+        margin-top: 300px;
+        float: left;
+        /* background-color: rgba(169, 169, 169, 0.644); */
+        text-align: center;
+        padding: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="home.html" id="form">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <video
+              autoplay
+              muted
+              id="video"
+              width="500px"
+              src="../money_transfer_-_49049 (720p).mp4"
+            ></video>
+          </div>
+          <div class="col-md-6" id="buyDiv">
+            <label id="totalPurchase"></label> <br />
+            <textarea
+              name=""
+              placeholder="write your suggestions"
+              id=""
+              cols="30"
+              rows="10"
+            ></textarea>
+            <br />
+            <input
+              type="radio"
+              name="paymentMethod"
+              id="visa"
+              value="Visa"
+              onchange="orderInfo()"
+            />Visa
+            <input
+              type="radio"
+              name="paymentMethod"
+              id="mada"
+              value="Mada"
+              onchange="orderInfo()"
+              checked
+            />Mada
+            <input
+              type="radio"
+              name="paymentMethod"
+              id="cash"
+              value="Cash"
+              onchange="orderInfo()"
+            />Cash <br />
+            <button class="btn btn-success" onclick="confirm1()">
+              purchase
+            </button>
+          </div>
+        </div>
+      </div>
+    </form>
+  </body>
+  <script src="../JavaScript/confirm.js"></script>
+</html>
